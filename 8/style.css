@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding : 0px;
+}
+ 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------- Partie Header ---------------------------------------------------------------- */
+ 
+nav {
+  text-align: left;     
+}
+
+nav ul{
+    display: flex;
+    background-color: darkslategray;
+    justify-content : left;
+    margin: 0px;
+    
+}
+ 
+li {
+    list-style: none;
+    background-color: darkslategray;
+    padding: 10px 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+ 
+li:nth-of-type(2n){
+    padding: 10px 40px;    
+} 
+
+nav ul a {
+  text-decoration : none;
+  color : white;
+}
+ 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------- Partie section ---------------------------------------------------------------- */
+.carousel {
+  background : lightgrey;
+  height : 250px;
+}
+
+.fellows-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding : 0px 5%
+}
+
+h2 {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+ 
+article {
+ 
+  margin-bottom: 30px;
+  height : 150px;
+  background : lightgrey;
+  padding: 50px;
+    
+}
+ 
+ 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------- Partie Formulaire ---------------------------------------------------------------- */
+ 
+h3 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+ 
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+  
+}
+ 
+input, textarea {
+  width: max-content;
+  margin: 5px;
+  display: flex;
+    
+}
+ 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------- Partie Footer ---------------------------------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+footer ul {
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer ul li {
+  margin: 0px;
+  font-size: 1.5rem;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: white;
+  
+}
+ 
+@media screen and (max-width: 961px) {
+  
