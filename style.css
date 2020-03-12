@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Chomsky";
+    src: local("Chomsky"),
+         local("Chomsky.woff") format("woff"),
+}
+
+p {
+    font-family: "Chomsky", serif;
+    background-color: blue;
+    color: white;
+    font-size: 8rem;
+}
